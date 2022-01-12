@@ -1,0 +1,61 @@
+[
+    {   
+        "flightNumber": 10001,
+        "destinationFrom": "San Francisco, USA",
+        "destinationTo": "Manila, Philippines",
+        "departureDate": "06/27/2022",
+        "returnDate": "07/20/2022",
+        "priceInUSD": "$600",
+        "numberOfTravelers": 2,
+        "travelClass": "Economy"
+    },
+
+    {   
+        "flightNumber": 10002,
+        "destinationFrom": "San Francisco, USA",
+        "destinationTo": "Sydney, Australia",
+        "departureDate": "01/02/2023",
+        "returnDate": "01/26/2023",
+        "priceInUSD": "$950",
+        "numberOfTravelers": 2,
+        "travelClass": "First"
+        
+    },
+
+    {   
+        "flightNumber": 10003,
+        "destinationFrom": "San Francisco, USA",
+        "destinationTo": "Calgary, Canada",
+        "departureDate": "02/23/2022",
+        "returnDate": "03/17/2022",
+        "price": "$425",
+        "numberOfTravelers": 2,
+        "travelClass": "Economy"
+        
+    },
+
+    {
+        "flightNumber": 10004,
+        "destinationFrom": "San Francisco, USA",
+        "destinationTo": "Lisbon, Portugal",
+        "departureDate": "04/05/2022",
+        "returnDate": "04/28/2022",
+        "price": "$695",
+        "numberOfTravelers": 2,
+        "travelClass": "Business"
+        
+    },
+
+    {
+        "flightNumber": 10005,
+        "destinationFrom": "San Francisco, USA",
+        "destinationTo": "Santiago, Chile",
+        "departureDate": "08/20/2022",
+        "returnDate": "09/15/2022",
+        "price": "$760",
+        "numberOfTravelers": 2,
+        "travelClass": "Economy"
+        
+    }
+
+]

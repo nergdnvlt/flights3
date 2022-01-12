@@ -1,0 +1,24 @@
+
+type Flight @key(fields: "flightNumber") { 
+    "The flight number to identify your specific flight"
+    flightNumber: Int!
+    "The destination you are originating from"
+    destinationFrom: String!
+    "The destination you are flying to"
+    destinationTo: String!
+    "The date you are departing on"
+    departureDate: String!
+    "The date you are returning on"
+    returnDate: String!
+    "The price of the flight in USD"
+    priceInUSD: String!
+    "The  number of travelers you are booking for"
+    numberOfTravelers: Int!
+    "The travel class you are flying in, i.e. Economy, Business, or First"
+    travelClass: String!
+}
+
+type Query {
+    "Get a list of flights"
+    flights: [Flight!]!
+}
